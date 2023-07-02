@@ -1,0 +1,10 @@
+{
+  "/authenticate": {
+    "target": "tvtracker-api.tvtracker.svc.cluster.local",
+    "secure": false
+  },
+  "/getMediaEntries": {
+    "target": "tvtracker-api.tvtracker.svc.cluster.local",
+    "secure": false
+  }
+}

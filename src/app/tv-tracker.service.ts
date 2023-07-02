@@ -22,7 +22,7 @@ export class TvTrackerService {
 
   browse(text: string, type: string, page: number): Observable<any> {
     const url = "https://movie-database-alternative.p.rapidapi.com";
-    const headers = new HttpHeaders({'x-rapidapi-key': ''});
+    const headers = new HttpHeaders({'x-rapidapi-key': '4ccbc10367msh3a0aae042eaac2ep10144bjsn5bf582dc9c1c'});
     const params = {
       s: encodeURIComponent(text),
       type: type,
