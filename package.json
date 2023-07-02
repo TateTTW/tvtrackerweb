@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -14,10 +14,16 @@
     "@angular/common": "~13.1.0",
     "@angular/compiler": "~13.1.0",
     "@angular/core": "~13.1.0",
+    "@angular/cdk": "~13.1.0",
     "@angular/forms": "~13.1.0",
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "@syncfusion/ej2-angular-inputs": "^19.4.52",
+    "@syncfusion/ej2-angular-layouts": "^19.4.52",
+    "@syncfusion/ej2-angular-navigations": "^19.4.38",
+    "@syncfusion/ej2-angular-buttons": "^19.4.55",
+    "@syncfusion/ej2-base": "^19.4.52",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

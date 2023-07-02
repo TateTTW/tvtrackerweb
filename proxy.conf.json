@@ -1,0 +1,10 @@
+{
+  "/authenticate": {
+    "target": "http://localhost:8080",
+    "secure": false
+  },
+  "/getMediaEntries": {
+    "target": "http://localhost:8080",
+    "secure": false
+  }
+}

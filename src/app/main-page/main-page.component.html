@@ -1,0 +1,32 @@
+<div id="header">
+  <h1 id="title">Tv Tracker</h1>
+  <table id="loginBar">
+    <tr>
+      <td><ejs-textbox #usernameTxt placeholder="Username" floatLabelType="Auto"></ejs-textbox></td>
+      <td><ejs-textbox #passwordTxt placeholder="Password" floatLabelType="Auto"></ejs-textbox></td>
+      <td>
+        <button ejs-button (click)="login({username: usernameTxt.value, password: passwordTxt.value})">Login</button>
+      </td>
+    </tr>
+  </table>
+</div>
+<ejs-tab>
+  <e-tabitems>
+    <e-tabitem>
+      <ng-template #headerText>
+        Browse
+      </ng-template>
+      <ng-template #content>
+        <browse-page></browse-page>
+      </ng-template>
+    </e-tabitem>
+    <e-tabitem>
+      <ng-template #headerText>
+        Saved
+      </ng-template>
+      <ng-template #content>
+        <saved-page></saved-page>
+      </ng-template>
+    </e-tabitem>
+  </e-tabitems>
+</ejs-tab>
